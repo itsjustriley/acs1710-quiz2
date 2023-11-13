@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{character.name}}</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1> Your Character </h1>
+    <h2>{{character_number}} - {{character.name}}</h2>
+    <p>Height: {{character.height}}</p>
+    <p>Mass: {{character.mass}}</p>
+    <p>Hair Color: {{character.hair_color}}</p>
+    <p>Eye Color: {{character.eye_color}}</p>
+    <p>Homeworld: {{home}}</p>
+
+    <h3>Movies</h3>
+    <ul> 
+        {% for title in movie_names %}
+            <li>{{title}}</li>
+        {% endfor %}
+    </ul>
+
+    
+</body>
+</html>

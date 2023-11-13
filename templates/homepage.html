@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
+</head>
+<body>
+    <h1>Star Wars Characters - Quiz 2</h1>
+    <form action="/character" method="GET">
+        Enter a number and get a Star Wars character:
+        <input type="number" name="character_number">
+        <input class="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>

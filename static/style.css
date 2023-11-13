@@ -1,0 +1,50 @@
+* {
+    padding: .5em;
+}
+body {
+    background-color: rgba(0, 0, 0, 0.769);
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: auto;
+}
+
+input {
+    background-color: black;
+    border-radius: 5px;
+    color: whitesmoke;
+    margin-left: 3em;
+    padding: 1em;
+}
+
+.submit {
+    border: none;
+}
+
+.submit:hover {
+    background-color: tomato;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+}
+
+h1 {
+    text-align: center;
+    font: xx-large;
+}
+
+h2{
+    color: tomato;
+}
+
+h3 {
+    color: rgba(255, 99, 71, 0.454);
+}
